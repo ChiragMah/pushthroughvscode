@@ -1,0 +1,187 @@
+
+body {
+
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #40514E;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Cabin', sans-serif;
+  font-size: 5.625rem;
+  color: #C24914;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #C24914;
+  font-weight: normal;
+      margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FC8621;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-color: #F0E3CA;
+  height: 2px;
+  width: 5%;
+
+
+
+}
+
+a {
+  color: #F9E0AE;
+  text-decoration: none;
+
+
+}
+
+a:hover{
+  color: white;
+}
+p {
+
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+
+}
+
+.bottom-container{
+  background-color: #C24914;
+  height: 200px;
+  position: relative;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 51px;
+  right: 350px;
+}
+
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 100;
+   padding: 10px 20px;
+   background-color: #C24914;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #C24914 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #FC8621;
+   border: solid #FC8621 1px;
+
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.contact-me{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.top-container{
+  background-color: #F9E0AE;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.profile-pic{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+
+
+.profile{
+  margin: 0 auto 100px;
+  width: 495px;
+}
+
+.skills{
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+
+}
+
+.skill-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-content{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.socials{
+  position: relative;
+  bottom: 10%;
+  margin-bottom: 30px;
+}
+
+.footer-link{
+margin: 10px 20px;
+}
+
+.vertically-center{
+  position: relative;
+    top: 25%;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
